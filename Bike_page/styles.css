@@ -49,12 +49,16 @@ header {
 }
 
 .main-photo {
-    height: 100px;
-    width: 90px;
+    height: 200px;
+    width: 180px;
 }
 
 .main-photo img {
     height: 100%;
+    padding: 0 150px;
+}
+p{
+    padding: 5px 15px;
 }
 
 aside {
@@ -72,8 +76,17 @@ aside {
 footer {
     background-color: #4d4242;
     color: #353535;
-    width: 90px;
-    margin: 10;
-    padding: 8px;
+    margin: 10 px;
+}
+.bottom-navigation{
+    color: white;
+    list-style-type: none;
     display: inline-flex;
+    width: 90px;
+    margin: 0;
+    padding: 8px;
+}
+.privacy{
+    width: 200px;
+    float: right;
 }
