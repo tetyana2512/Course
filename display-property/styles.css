@@ -1,3 +1,8 @@
+.main-box{
+    background-color: aqua;
+    padding: 2em;
+    border: greenyellow 1px solid;
+}
 .row,
 .col-4,
 .col-8 {
