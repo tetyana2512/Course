@@ -1,3 +1,8 @@
+.main-box{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
 .pale{
     background-color: burlywood;
 }
@@ -10,26 +15,22 @@
 .yellow{
     background-color: yellow;
 }
-.main-box{
-    padding: 10px;
-    width: 100%;
-    height: 100%;
+.blue{
+    background-color: blue;
 }
 .block{
-    width: 33.3333333%;
-}
-.size-1{
+    width: 33.333333%;
     height: 20em;
 }
+.parts-box{
+    display: flex;
+    flex-direction: column}
 .size-2{
-    height: 10em;
+    height: 50%;
 }
 .size-3{
-    height: 6.666666666em;
+    height: 33.33333333%;
 }
 .size-4{
-    height: 5em;
-}
-.fdg{
-    width: 50%;
+    height: 25%;
 }
