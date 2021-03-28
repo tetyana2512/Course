@@ -6,7 +6,6 @@
 body {
     height: 100vh;
 }
-
 .main-box {
     max-width: 1060px;
     height: calc(100% - 2px);
