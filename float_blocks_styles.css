@@ -1,0 +1,36 @@
+.main-box{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pale{
+    background-color: burlywood;
+}
+.green{
+    background-color: green;
+}
+.pink{
+    background-color: deeppink;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.block{
+    width: 33.333333%;
+    height: 20em;
+}
+.parts-box{
+    display: flex;
+    flex-direction: column}
+.size-2{
+    height: 50%;
+}
+.size-3{
+    height: 33.33333333%;
+}
+.size-4{
+    height: 25%;
+}
