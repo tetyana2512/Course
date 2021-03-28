@@ -31,11 +31,12 @@ body {
 .main-box {
     max-width: 1060px;
     padding-top: 40px;
+    display: flex;
+    justify-content: right;
 }
 aside{
     width: 240px;
     height: 240px;
-
 }
 li{
     list-style: none;
@@ -55,15 +56,29 @@ li{
     border-top: 1px solid #c8c8c8;
     background-color: #f9f9f9;
 }
-/*!*    height: calc(100% - 2px);*!*/
-/*!*    border: 1px solid gainsboro;*!*/
-/*!*    margin-left: auto;*!*/
-/*!*    margin-right: auto;*!*/
-/*!*  padding: 0px 48px 0px 46px;}
+.content{
+    width: 678px;
+    padding-left: 50px;
 
-/*}background-color: #505050;*/
-
-
+}
+.main-photo{
+    width: 678px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 1px solid #c8c8c8;
+    }
+.bike-picture{
+    padding: 54px 90px;
+}
+.main-info{
+    font-size: 13px;
+    line-height: 21px;
+    color: #2c2c2c;
+    font-weight: 400;
+    margin-top: 40px;
+    padding-left: 25px;
+    padding-right: 35px;
+}
 /*.navigation {*/
 
 /*    color: white;*/
