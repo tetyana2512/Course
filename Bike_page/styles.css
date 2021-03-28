@@ -50,8 +50,10 @@ li{
     border: 1px solid #c8c8c8;
 }
 .inner-list{
-    padding-left: 12px;
-    border: 1px solid #c8c8c8;
+    margin-left: -25px;
+    padding-left: 35px;
+    border-top: 1px solid #c8c8c8;
+    background-color: #f9f9f9;
 }
 /*!*    height: calc(100% - 2px);*!*/
 /*!*    border: 1px solid gainsboro;*!*/
