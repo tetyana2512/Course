@@ -1,5 +1,7 @@
 .main-box{
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .pale{
     background-color: burlywood;
@@ -21,7 +23,8 @@
     height: 20em;
 }
 .parts-box{
-    }
+height: 20em;
+}
 .size-2{
     height: 50%;
 }

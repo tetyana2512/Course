@@ -1,7 +1,6 @@
 .main-box{
     padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
+    max-width:1760px;
 }
 .pale{
     background-color: burlywood;
@@ -21,10 +20,11 @@
 .block{
     width: 33.333333%;
     height: 20em;
+    float:left;
 }
 .parts-box{
-    display: flex;
-    flex-direction: column}
+    height: 20em;
+}
 .size-2{
     height: 50%;
 }
