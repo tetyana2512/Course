@@ -35,14 +35,14 @@
 
 .col-4 {
     display: inline-block;
-    width: 33%;
-    margin-left: -4px;
+    width: calc(100% / 3);
+    /*margin-left: -4px;*/
 }
 
 .col-8 {
     display: inline-block;
     width: 66%;
-    margin-left: -4px;
+    /*margin-left: -4px;*/
 }
 .row-3{
     height: calc(20em / 4);
