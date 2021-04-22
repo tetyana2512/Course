@@ -13,8 +13,6 @@ body {
     height: 100%;
     margin: auto;
     position: relative;
-    /*display: flex;*/
-    /*flex-direction: column;*/
 }
 .main-header{
     position: relative;
