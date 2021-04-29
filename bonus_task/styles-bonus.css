@@ -68,17 +68,20 @@ body {
     width: 100%;
     flex-grow: 1;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .countries {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-right: -10px;
 }
 .card {
     margin-bottom: 20px;
-    width: calc(33% - 10px);
     margin-right: 10px;
+    flex-basis: 250px;
+    flex-grow: 1;
 }
 
 .country-photo img {
@@ -92,21 +95,10 @@ body {
 }
 .main-footer {
     height: 4%;
-    /*background-color: red;*/
 }
 p {
     font-size: 10px;
     color: #e6e6e6;
     font-family: "Tahoma";
     text-align: center;
-}
-@media (max-width: 768px) {
-    .card {
-        width: calc(50% - 10px);
-    }
-}
-@media (max-width: 480px) {
-    .card {
-        width: 100%;
-    }
 }
