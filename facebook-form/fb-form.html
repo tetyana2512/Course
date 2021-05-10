@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <title>Cadastre-se</title>
-</head>
+    </head>
 <body>
 <div class="container wrapper">
     <header class="main-header accordion">
@@ -29,18 +29,24 @@
                 <span>OU</span>
                 <div class="line"></div>
                </div>
-                <form action="https://www.facebook.com/" target="_blank" class="registration">
-                   <div> <input type="text" id="first-name" name="first-name" placeholder="First Name" class="data"></div>
-                   <div><input type="text" id="last-name" name="last-name" placeholder="Last Name" class="data"></div>
-                   <div><input type="email" id="email" name="email" placeholder="Email Address" class="data"></div>
-                   <div><input type="password" id="password" name="password" placeholder="Choose Password" class="data"></div>
-                   <div><input type="password" id="password" name="password" placeholder="Confirm Password" class="data"></div>
-                   <div class="check"><input type="checkbox" id="updates"> <label for="updates"> Send me Youbike updates and tips</label></div>
+                <form action="https://www.facebook.com/" target="_blank" class="to-bottom registration">
+                   <div class="data-block to-bottom">
+                       <input type="text" id="first-name" name="first-name" class="data bottom-input">
+                       <label class="bottom-label" for="first-name">First Name</label>
+                   </div>
+                   <div class="data-block to-right">
+                       <input type="text" id="last-name" name="last-name" class="right-input data">
+                       <label class="right-label" for="last-name">Last Name</label>
+                   </div>
+                   <div class="data-block"><input type="email" id="email" name="email" placeholder="Email Address" class="data"></div>
+                   <div class="data-block"><input type="password" id="password" name="password" placeholder="Choose Password" class="data"></div>
+                   <div class="data-block"><input type="password" id="confirm-pass" name="password" placeholder="Confirm Password" class="data"></div>
+                   <div class="check"><input type="checkbox" id="updates"> <label class="outdates" for="updates"> Send me Youbike updates and tips</label></div>
                 <div class="button"><input type="submit" value="Create my Account"></div>
-                    <p class="agreement">By clicking the button above, you agree to the Terms of Service <br>Xiew our Privacy Policy.</br></p>
+                    <p class="agreement">By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</p>
                 </form>
                            </div>
-    </div>
+        </div>
 </div>
 </body>
 </html>
